@@ -21,7 +21,7 @@ import { FaGithubAlt } from "react-icons/fa6";
 
 export default function LeftSidebar() {
     return (
-        <div className="card glass w-96">
+        <div className="card glass w-auto">
             <figure>
                 <img src={satyaImg} alt="" className='w-3/4 rounded-full' />
             </figure>
@@ -32,10 +32,10 @@ export default function LeftSidebar() {
                 <p className='text-[#1877F2]'>Full Stack Developer | React & Node.js Expert</p>
 
                 <a href="https://linkedin.com/in/satyajit-adhikary" target="_blank">
-                    <span className='tracking-tight text-lg flex'><FaLinkedin className='mt-1 mr-1' />www.linkedin.com/in/satyajit-adhikary</span>
+                    <span className='tracking-tight text-lg flex'><FaLinkedin className='mt-1 mr-1' />satyajit-adhikary</span>
                 </a>
                 <a href="https://github.com/satyacse025" target="_blank">
-                    <span className='tracking-tight text-lg flex'><FaGithubAlt className='mt-1 mr-1' />www.github.com/satyacse025</span>
+                    <span className='tracking-tight text-lg flex'><FaGithubAlt className='mt-1 mr-1' />satyacse025</span>
                 </a>
                 <a href="https://wa.me/8801749090971" target="_blank">
                     <span className='tracking-tight text-lg flex'><FaWhatsapp className='mt-1 mr-1' />+88 017 49 090 971</span>
